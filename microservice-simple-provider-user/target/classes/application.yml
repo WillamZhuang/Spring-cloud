@@ -1,0 +1,26 @@
+server:
+  port: 8000
+spring:
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: h2
+    schema: classpath:schema.sql
+    data: classpath:data.sql
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasciExtractor: TRACE
+#INFO
+info:
+  app:
+    name: microservice-simple-provider-user
+    Encoding: UTF-8
+    java:
+      source: 1.8.0_151
+      target: 1.8.0_151
