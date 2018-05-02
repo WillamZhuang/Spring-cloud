@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.boot:spring-boot-starter-acuator:unknown">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-acuator/unknown/spring-boot-starter-acuator-unknown.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-acuator/unknown/spring-boot-starter-acuator-unknown.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-acuator/unknown/spring-boot-starter-acuator-unknown-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-acuator/unknown/spring-boot-starter-acuator-unknown-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-acuator/unknown/spring-boot-starter-acuator-unknown-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-acuator/unknown/spring-boot-starter-acuator-unknown-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

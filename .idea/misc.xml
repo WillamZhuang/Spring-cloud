@@ -5,26 +5,26 @@
       <list>
         <option value="$PROJECT_DIR$/microservice-simple-provider-user/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-simple-consumer-movie/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user-with-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user-my-metadata/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-provider-user/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discovery-eureka-ha/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-my-metadata/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-with-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-logging/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="WebServicesPlugin" addRequiredLibraries="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

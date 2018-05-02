@@ -16,14 +16,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by Jobba on 2018/4/23.
+ * Created by Chopper on 2018/4/23.
  */
 @Import(FeignClientsConfiguration.class)
 @RestController
 public class MovieController {
     private UserFeignClient userUserFeignClient;
 
-    private UserFeignClient adminUserFEignClient;
+    private UserFeignClient admingUserFeignClient;
 
     @Autowired
     public MovieController(Decoder decoder, Encoder encoder, Client client, Contract contract){
@@ -32,6 +32,10 @@ public class MovieController {
     }
     @GetMapping("/user-user/{id}")
     public User findByIdUser(@PathVariable Long id){
-        return this.adminUserFEignClient.findById(id);
+        return  this.userUserFeignClient.findById(id);
+    }
+    @GetMapping("/user-admin/{id}")
+    public User findByIdAdmin(@PathVariable Long id){
+        return this.admingUserFeignClient.findById(id);
     }
 }

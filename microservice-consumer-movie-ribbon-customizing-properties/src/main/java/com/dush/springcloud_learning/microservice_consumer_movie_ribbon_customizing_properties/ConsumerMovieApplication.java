@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * Created by Jobba on 2018/4/23.
+ * Created by Chopper on 2018/4/23.
  */
 @EnableDiscoveryClient
 @SpringBootApplication

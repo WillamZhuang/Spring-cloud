@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import java.math.BigDecimal;
 
 /**
- * Created by Jobba on 2018/4/23.
+ * Created by Chopper on 2018/4/23.
  */
 @Entity
 public class User {

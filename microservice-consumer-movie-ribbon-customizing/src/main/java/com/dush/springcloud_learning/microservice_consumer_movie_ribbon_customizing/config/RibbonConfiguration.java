@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Created by Jobba on 2018/4/24.
+ * Created by Chopper on 2018/4/24.
  */
 @Configuration
 public class RibbonConfiguration {

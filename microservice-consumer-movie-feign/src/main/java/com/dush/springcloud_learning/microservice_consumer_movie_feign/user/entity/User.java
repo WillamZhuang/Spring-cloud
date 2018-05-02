@@ -3,7 +3,7 @@ package com.dush.springcloud_learning.microservice_consumer_movie_feign.user.ent
 import java.math.BigDecimal;
 
 /**
- * Created by Jobba on 2018/4/23.
+ * Created by Chopper on 2018/4/23.
  */
 public class User {
     private Long id;

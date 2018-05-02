@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
- * Created by Jobba on 2018/4/25.
+ * Created by Chopper on 2018/4/25.
  */
 @FeignClient("microservice-provider-user")
 public interface UserFeignClient {

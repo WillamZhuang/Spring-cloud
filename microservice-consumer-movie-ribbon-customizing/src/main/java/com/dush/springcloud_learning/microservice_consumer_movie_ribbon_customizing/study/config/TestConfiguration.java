@@ -5,7 +5,7 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Created by Jobba on 2018/4/24.
+ * Created by Chopper on 2018/4/24.
  */
 @Configuration
 @RibbonClient(name="microservice-provider-user",configuration=RibbonConfiguration.class)

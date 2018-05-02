@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Created by Jobba on 2018/4/25.
+ * Created by Chopper on 2018/4/25.
  */
 @Configuration
 public class FeignConfiguration {

@@ -1,25 +1,258 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5397b2e4-11a5-41b2-a356-524eae185082" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="321bad9c-ef0c-4833-bacb-4ff71d57c8b2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/microservice-consumer-movie-feign-customizing.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/microservice-consumer-movie-feign-manual.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/microservice-consumer-movie-ribbon-customizing-properties.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/microservice-consumer-movie-ribbon-customizing.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/microservice-consumer-movie-understanding-metadata.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/microservice-consumer-movie-without-eureka.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-provider-user-my-metadata/microservice-provider-user-my-metadata.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/microservice-provider-user-with-auth.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-simple-consumer-movie/microservice-simple-consumer-movie.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/microservice-simple-provider-user/microservice-simple-provider-user.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/target/classes/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/feign/UserFeignClient.class" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/target/classes/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/feign/UserFeignClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/target/classes/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/controller/MovieController.class" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/target/classes/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/controller/MovieController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_assistedinject_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_assistedinject_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_grapher_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_grapher_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_193.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_193.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_governator_governator_1_12_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_governator_governator_1_12_10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_governator_governator_api_1_12_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_governator_governator_api_1_12_10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_governator_governator_core_1_12_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_governator_governator_core_1_12_10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_0_27_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_0_27_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_0_27_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_0_27_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_0_27_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_0_27_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_0_27_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_0_27_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_0_27_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_0_27_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_0_27_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_0_27_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_0_27_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_0_27_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_1_10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_55.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_55.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_55.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_55.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_25_incubating.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_25_incubating.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_11_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_11_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_11_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_11_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_22.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_22.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_22.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_22.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_22.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_22.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_4_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_4_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_4_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_4_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_4_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_4_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_4_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_4_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_4_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_4_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_acuator_unknown.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_acuator_unknown.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_4_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_4_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_4_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_4_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_4_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_4_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_4_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_4_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_4_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_4_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_4_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_4_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_4_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_4_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_4_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_4_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_1_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_1_7_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_1_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_1_7_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_1_2_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_2_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_1_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_1_2_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_1_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_1_7_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_archaius_1_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_archaius_1_2_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_1_2_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_server_1_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_server_1_2_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_2_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_2_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_10_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_10_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_1_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_1_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_1_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_1_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_1_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_1_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_1_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/config/FeignConfiguration.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/config/FeignConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/ConsumerMovieApplication.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/ConsumerMovieApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/controller/MovieController.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/controller/MovieController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/entity/User.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/feign/UserFeignClient.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/feign/UserFeignClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/ConsumerMovieApplication.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/ConsumerMovieApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/controller/MovieController.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/controller/MovieController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/entity/User.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/feign/UserFeignClient.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/feign/UserFeignClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/ConsumerMovieApplication.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/ConsumerMovieApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/controller/MovieController.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/controller/MovieController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/entity/User.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/feign/UserFeignClient.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/feign/UserFeignClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing_properties/ConsumerMovieApplication.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing_properties/ConsumerMovieApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing_properties/user/controller/MovieController.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing_properties/user/controller/MovieController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing_properties/user/entity/User.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing_properties/user/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/config/RibbonConfiguration.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/config/RibbonConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/ConsumerMovieApplication.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/ConsumerMovieApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/config/TestConfiguration.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/config/TestConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/user/controller/MovieController.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/user/controller/MovieController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/user/entity/User.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/user/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/ConsumerMovieApplication.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/ConsumerMovieApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/controller/MovieController.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/controller/MovieController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/entity/User.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/ConsumerMovieApplication.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/ConsumerMovieApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/controller/MovieController.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/controller/MovieController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/entity/User.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_without_eureka/ConsumerMovieApplication.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_without_eureka/ConsumerMovieApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_without_eureka/user/controller/MovieController.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_without_eureka/user/controller/MovieController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_without_eureka/user/entity/User.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_without_eureka/user/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/ConsumerMovieApplication.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/ConsumerMovieApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/controller/MovieController.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/controller/MovieController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/entity/User.java" afterPath="$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/src/main/java/com/dush/springcloud_learning/microservice_discovery_eureka/EurekaApplication.java" afterPath="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/src/main/java/com/dush/springcloud_learning/microservice_discovery_eureka/EurekaApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-discovery-eureka-ha/src/main/java/com/dush/springcloud_learning/microservice_discovery_eureka_ha/EurekaApplication.java" afterPath="$PROJECT_DIR$/microservice-discovery-eureka-ha/src/main/java/com/dush/springcloud_learning/microservice_discovery_eureka_ha/EurekaApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/dush/springcloud_learning/microservice_discovery_eureka/EurekaApplication.java" afterPath="$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/dush/springcloud_learning/microservice_discovery_eureka/EurekaApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user-my-metadata/src/main/java/com/dush/springcloud_learning/microservice_provider_user/ProviderUserApplication.java" afterPath="$PROJECT_DIR$/microservice-provider-user-my-metadata/src/main/java/com/dush/springcloud_learning/microservice_provider_user/ProviderUserApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user-my-metadata/src/main/java/com/dush/springcloud_learning/microservice_provider_user/controller/UserController.java" afterPath="$PROJECT_DIR$/microservice-provider-user-my-metadata/src/main/java/com/dush/springcloud_learning/microservice_provider_user/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user-my-metadata/src/main/java/com/dush/springcloud_learning/microservice_provider_user/entity/User.java" afterPath="$PROJECT_DIR$/microservice-provider-user-my-metadata/src/main/java/com/dush/springcloud_learning/microservice_provider_user/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user-my-metadata/src/main/java/com/dush/springcloud_learning/microservice_provider_user/repository/UserRepository.java" afterPath="$PROJECT_DIR$/microservice-provider-user-my-metadata/src/main/java/com/dush/springcloud_learning/microservice_provider_user/repository/UserRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/ProviderUserApplication.java" afterPath="$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/ProviderUserApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/controller/UserController.java" afterPath="$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/entity/User.java" afterPath="$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/repository/UserRepository.java" afterPath="$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/repository/UserRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/security/WebSecurityConfig.java" afterPath="$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/security/WebSecurityConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/dush/springcloud_learning/microservice_provider_user/ProviderUserApplication.java" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/dush/springcloud_learning/microservice_provider_user/ProviderUserApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/dush/springcloud_learning/microservice_provider_user/controller/UserController.java" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/dush/springcloud_learning/microservice_provider_user/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/dush/springcloud_learning/microservice_provider_user/entity/User.java" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/dush/springcloud_learning/microservice_provider_user/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/dush/springcloud_learning/microservice_provider_user/repository/UserRepository.java" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/java/com/dush/springcloud_learning/microservice_provider_user/repository/UserRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-simple-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_simple_consumer_movie/ConsumerMovieApplication.java" afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_simple_consumer_movie/ConsumerMovieApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-simple-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_simple_consumer_movie/user/controller/MovieController.java" afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_simple_consumer_movie/user/controller/MovieController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-simple-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_simple_consumer_movie/user/entity/User.java" afterPath="$PROJECT_DIR$/microservice-simple-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_simple_consumer_movie/user/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-simple-provider-user/src/main/java/com/dush/springcloud_learning/microservice_simple_provider_user/ProviderUserApplication.java" afterPath="$PROJECT_DIR$/microservice-simple-provider-user/src/main/java/com/dush/springcloud_learning/microservice_simple_provider_user/ProviderUserApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-simple-provider-user/src/main/java/com/dush/springcloud_learning/microservice_simple_provider_user/controller/UserController.java" afterPath="$PROJECT_DIR$/microservice-simple-provider-user/src/main/java/com/dush/springcloud_learning/microservice_simple_provider_user/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-simple-provider-user/src/main/java/com/dush/springcloud_learning/microservice_simple_provider_user/entity/User.java" afterPath="$PROJECT_DIR$/microservice-simple-provider-user/src/main/java/com/dush/springcloud_learning/microservice_simple_provider_user/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/microservice-simple-provider-user/src/main/java/com/dush/springcloud_learning/microservice_simple_provider_user/repository/UserRepository.java" afterPath="$PROJECT_DIR$/microservice-simple-provider-user/src/main/java/com/dush/springcloud_learning/microservice_simple_provider_user/repository/UserRepository.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/microservice-simple-provider-user/target/" />
-    <ignored path="$PROJECT_DIR$/microservice-simple-consumer-movie/target/" />
-    <ignored path="$PROJECT_DIR$/microservice-discovery-eureka/target/" />
-    <ignored path="$PROJECT_DIR$/microservice-provider-user/target/" />
-    <ignored path="$PROJECT_DIR$/microservice-consumer-movie/target/" />
-    <ignored path="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/" />
-    <ignored path="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/target/" />
     <ignored path="$PROJECT_DIR$/microservice-provider-user-my-metadata/target/" />
-    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/target/" />
-    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon/target/" />
-    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-discovery-eureka-ha/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-simple-consumer-movie/target/" />
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/target/" />
-    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/target/" />
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign/target/" />
-    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-discovery-eureka/target/" />
     <ignored path="$PROJECT_DIR$/microservice-provider-user-with-auth/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-provider-user/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon/target/" />
     <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign-logging/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,132 +266,105 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserFeignClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/feign/UserFeignClient.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+            <state relative-caret-position="19">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="30" column="52" lean-forward="false" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserFeignClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_hystrix_fallback/user/feign/UserFeignClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/entity/User.java">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_hystrix_fallback/user/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#625#626#0" expanded="false" />
-                <element signature="e#650#651#0" expanded="false" />
-                <element signature="e#684#685#0" expanded="false" />
-                <element signature="e#712#713#0" expanded="false" />
-                <element signature="e#747#748#0" expanded="false" />
-                <element signature="e#778#779#0" expanded="false" />
-                <element signature="e#826#827#0" expanded="false" />
-                <element signature="e#866#867#0" expanded="false" />
-                <element signature="e#897#898#0" expanded="false" />
-                <element signature="e#924#925#0" expanded="false" />
-                <element signature="e#964#965#0" expanded="false" />
-                <element signature="e#996#997#0" expanded="false" />
-                <element signature="e#1027#1028#0" expanded="false" />
-                <element signature="e#1053#1054#0" expanded="false" />
-                <element signature="e#1092#1093#0" expanded="false" />
-                <element signature="e#1122#1123#0" expanded="false" />
-                <element signature="e#1160#1161#0" expanded="false" />
-                <element signature="e#1190#1191#0" expanded="false" />
-                <element signature="e#1240#1241#0" expanded="false" />
-                <element signature="e#1278#1279#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="46" column="52" lean-forward="false" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+            <state relative-caret-position="19">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/security/WebSecurityConfig.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3324#3342#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserFeignClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/feign/UserFeignClient.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="171">
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ConsumerMovieApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/ConsumerMovieApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/controller/MovieController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1852#1853#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual/pom.xml">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/ConsumerMovieApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/controller/UserController.java">
+      <file leaf-file-name="MovieController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/controller/MovieController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="354">
+              <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ConsumerMovieApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/ConsumerMovieApplication.java">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_hystrix_fallback/ConsumerMovieApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="228">
+              <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+              <folding>
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,10 +374,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Jobba</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Chopper</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -181,57 +397,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-discovery-eureka-ha/src/main/java/com/dush/springcloud_learning/microservice_discovery_eureka/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-discovery-eureka-ha/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-discovery-eureka-ha/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/src/main/java/com/dush/springcloud_learning/microservice_discovery_eureka/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-my-metadata/src/main/java/com/dush/springcloud_learning/microservice_provider_user/entity/User.java" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-my-metadata/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-my-metadata/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/entity/User.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/controller/MovieController.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/entity/User.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/ConsumerMovieApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/controller/MovieController.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/controller/MovieController.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/entity/User.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/ConsumerMovieApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/config/TestConfiguration.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/config/RibbonConfiguration.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/entity/User.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/ConsumerMovieApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/entity/User.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_without_eureka/ConsumerMovieApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-without-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-simple-provider-user/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/ConsumerMovieApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/controller/MovieController.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/feign/UserFeignClient.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/feign/UserFeignClient.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/user/feign/UserFeignClient.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/ConsumerMovieApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/config/FeignConfiguration.java" />
-        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/feign/UserFeignClient.java" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user/entity/User.java" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-with-auth/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/security/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/feign/UserFeignClient.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/config/FeignConfiguration.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/feign/UserFeignClient.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/ConsumerMovieApplication.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/controller/MovieController.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-logging/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-logging/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/study/user/ConsumerMovieApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-logging/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/ConsumerMovieApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-logging/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/study/ConsumerMovieApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-logging/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/study/user/feign/UserFeignClient.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-logging/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-logging/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/config/FeignLogConfiguration.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/entity/User.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/controller/MovieController.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/ConsumerMovieApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/feign/UserFeignClient.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_hystrix_fallback/user/feign/UserFeignClient.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -242,12 +429,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../Java/apache-maven-3.5.3" />
-        <option name="userSettingsFile" value="G:\Jobba\Java\apache-maven-3.5.3\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -259,6 +440,9 @@
     <option name="y" value="2" />
     <option name="width" value="1452" />
     <option name="height" value="865" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -275,43 +459,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="microservice-consumer-movie-feign-manual" />
+              <option name="myItemId" value="microservice-consumer-movie-ribbon-hystrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="microservice-consumer-movie-feign-manual" />
+              <option name="myItemId" value="microservice-consumer-movie-ribbon-hystrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -321,15 +507,41 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="microservice-consumer-movie-feign-manual" />
+              <option name="myItemId" value="microservice-consumer-movie-ribbon-hystrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springcloud-learning2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springcloud-learning2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microservice-consumer-movie-ribbon-hystrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -343,15 +555,73 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="microservice-consumer-movie-feign-manual" />
+              <option name="myItemId" value="microservice-consumer-movie-feign-hystrix-fallback" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springcloud-learning2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springcloud-learning2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microservice-consumer-movie-feign-hystrix-fallback" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springcloud-learning2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springcloud-learning2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microservice-consumer-movie-feign-hystrix-fallback" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springcloud-learning2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springcloud-learning2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microservice-consumer-movie-feign-hystrix-fallback" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -367,21 +637,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="microservice_consumer_movie_feign_manual" />
+              <option name="myItemId" value="microservice_consumer_movie_feign_hystrix_fallback" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="microservice-consumer-movie-feign-manual" />
+              <option name="myItemId" value="microservice-consumer-movie-feign-hystrix-fallback" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -397,7 +667,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="microservice_consumer_movie_feign_manual" />
+              <option name="myItemId" value="microservice_consumer_movie_feign_hystrix_fallback" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -408,18 +678,22 @@
               <option name="myItemId" value="feign" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserFeignClient.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
+              <option name="myItemId" value="springcloud-learning2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="microservice-consumer-movie-feign-manual" />
+              <option name="myItemId" value="microservice-consumer-movie-feign-hystrix-fallback" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -435,72 +709,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="microservice_consumer_movie_feign_manual" />
+              <option name="myItemId" value="microservice_consumer_movie_feign_hystrix_fallback" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springcloud-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="microservice-consumer-movie-feign-manual" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="microservice_consumer_movie_feign_manual" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Jobba\IdeaProjects\springcloud-learning" />
+      <recent name="G:\Chopper\IdeaProjects\springcloud-learning2" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ConsumerMovieApplication">
@@ -804,7 +1041,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="springcloud-learning" />
+      <module name="springcloud-learning2" />
       <envs />
       <method />
     </configuration>
@@ -884,17 +1121,19 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="ProviderUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration default="false" name="ProviderUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dush.springcloud_learning.microservice_provider_user_with_auth.ProviderUserApplication" />
-      <module name="microservice-provider-user-with-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dush.springcloud_learning.microservice_provider_user.ProviderUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="microservice-provider-user" />
       <envs />
       <method />
     </configuration>
     <configuration default="false" name="ConsumerMovieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dush.springcloud_learning.microservice_consumer_movie_feign_manual.ConsumerMovieApplication" />
-      <module name="microservice-consumer-movie-feign-manual" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dush.springcloud_learning.microservice_consumer_movie_feign_hystrix_fallback.ConsumerMovieApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="microservice-consumer-movie-feign-hystrix-fallback" />
       <envs />
       <method />
     </configuration>
@@ -917,30 +1156,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5397b2e4-11a5-41b2-a356-524eae185082" name="Default" comment="" />
-      <created>1524470675029</created>
+      <changelist id="321bad9c-ef0c-4833-bacb-4ff71d57c8b2" name="Default" comment="" />
+      <created>1524823757208</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1524470675029</updated>
-      <workItem from="1524470678794" duration="173000" />
-      <workItem from="1524472435237" duration="1965000" />
-      <workItem from="1524474461636" duration="7338000" />
-      <workItem from="1524532470873" duration="27056000" />
-      <workItem from="1524619335787" duration="4867000" />
-      <workItem from="1524625911717" duration="16482000" />
+      <updated>1524823757208</updated>
+      <workItem from="1524823758881" duration="2337000" />
+      <workItem from="1524879443652" duration="54000" />
+      <workItem from="1524879973045" duration="1566000" />
+      <workItem from="1524881785349" duration="5418000" />
+      <workItem from="1524899343347" duration="9279000" />
+      <workItem from="1525167443454" duration="3546000" />
+      <workItem from="1525232465413" duration="4765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57881000" />
+    <option name="totallyTimeSpent" value="26965000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1452" height="865" extended-state="1" />
+    <frame x="-7" y="2" width="1452" height="865" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.505571" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -951,17 +1191,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3306011" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26795977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891247" sideWeight="0.49442896" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -969,7 +1209,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -987,382 +1227,49 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="66" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-understanding-metadata/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/controller/MovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/user/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/user/controller/MovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/config/TestConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/ConsumerMovieApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/study/config/TestConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing/config/RibbonConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon_customizing_properties/user/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-logging/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/study/user/feign/UserFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#359#360#0" expanded="false" />
-            <element signature="e#384#385#0" expanded="false" />
-            <element signature="e#418#419#0" expanded="false" />
-            <element signature="e#446#447#0" expanded="false" />
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#600#601#0" expanded="false" />
-            <element signature="e#631#632#0" expanded="false" />
-            <element signature="e#658#659#0" expanded="false" />
-            <element signature="e#698#699#0" expanded="false" />
-            <element signature="e#730#731#0" expanded="false" />
-            <element signature="e#761#762#0" expanded="false" />
-            <element signature="e#787#788#0" expanded="false" />
-            <element signature="e#826#827#0" expanded="false" />
-            <element signature="e#856#857#0" expanded="false" />
-            <element signature="e#894#895#0" expanded="false" />
-            <element signature="e#924#925#0" expanded="false" />
-            <element signature="e#974#975#0" expanded="false" />
-            <element signature="e#1012#1013#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="68" lean-forward="false" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/ConsumerMovieApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#721#722#0" expanded="false" />
-            <element signature="e#795#796#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-without-eureka/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_without_eureka/user/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-logging/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#344#345#0" expanded="false" />
-            <element signature="e#369#370#0" expanded="false" />
-            <element signature="e#403#404#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#497#498#0" expanded="false" />
-            <element signature="e#545#546#0" expanded="false" />
-            <element signature="e#585#586#0" expanded="false" />
-            <element signature="e#616#617#0" expanded="false" />
-            <element signature="e#643#644#0" expanded="false" />
-            <element signature="e#683#684#0" expanded="false" />
-            <element signature="e#715#716#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
-            <element signature="e#772#773#0" expanded="false" />
-            <element signature="e#811#812#0" expanded="false" />
-            <element signature="e#841#842#0" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#909#910#0" expanded="false" />
-            <element signature="e#959#960#0" expanded="false" />
-            <element signature="e#997#998#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-without-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-without-eureka/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_without_eureka/ConsumerMovieApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-without-eureka/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/ConsumerMovieApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/dush/springcloud_learning/microservice_provider_user/ProviderUserApplication.java">
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/feign/UserFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/dush/springcloud_learning/microservice_provider_user/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/ConsumerMovieApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie/user/controller/MovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-movie/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-movie/src/main/java/com/dush/springcloud_learning/microservice_simple_consumer_movie/user/controller/MovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/ConsumerMovieApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/controller/MovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/controller/MovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#753#754#0" expanded="false" />
-            <element signature="e#809#810#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/feign/UserFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="171">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/config/FeignConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#366#367#0" expanded="false" />
-            <element signature="e#417#418#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="152">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1370,109 +1277,343 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/controller/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/feign/UserFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#625#626#0" expanded="false" />
-            <element signature="e#650#651#0" expanded="false" />
-            <element signature="e#684#685#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#778#779#0" expanded="false" />
-            <element signature="e#826#827#0" expanded="false" />
-            <element signature="e#866#867#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#924#925#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-            <element signature="e#996#997#0" expanded="false" />
-            <element signature="e#1027#1028#0" expanded="false" />
-            <element signature="e#1053#1054#0" expanded="false" />
-            <element signature="e#1092#1093#0" expanded="false" />
-            <element signature="e#1122#1123#0" expanded="false" />
-            <element signature="e#1160#1161#0" expanded="false" />
-            <element signature="e#1190#1191#0" expanded="false" />
-            <element signature="e#1240#1241#0" expanded="false" />
-            <element signature="e#1278#1279#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="46" column="52" lean-forward="false" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="133">
+          <caret line="14" column="112" lean-forward="false" selection-start-line="14" selection-start-column="112" selection-end-line="14" selection-end-column="112" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/security/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3324#3342#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual/pom.xml">
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/ProviderUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/feign/UserFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/feign/UserFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/user/feign/UserFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-          <folding />
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/ConsumerMovieApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/controller/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/study/user/feign/UserFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="112" lean-forward="false" selection-start-line="14" selection-start-column="112" selection-end-line="14" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/ProviderUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_customizing/config/FeignConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user-with-auth/src/main/java/com/dush/springcloud_learning/microservice_provider_user_with_auth/security/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/feign/UserFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="133">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/ConsumerMovieApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="171">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_manual/user/controller/MovieController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        <state relative-caret-position="418">
+          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-logging/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-logging/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/study/ConsumerMovieApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1852#1853#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#533#534#0" expanded="false" />
+            <element signature="e#607#608#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-logging/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="107" lean-forward="false" selection-start-line="13" selection-start-column="107" selection-end-line="13" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-logging/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/study/user/feign/UserFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-logging/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/study/user/controller/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#773#774#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-logging/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign/config/FeignLogConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="30" column="52" lean-forward="false" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_hystrix_fallback/user/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/ConsumerMovieApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_ribbon/user/controller/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_hystrix_fallback/ConsumerMovieApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+          <folding>
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/src/main/java/com/dush/springcloud_learning/microservice_consumer_movie_feign_hystrix_fallback/user/feign/UserFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-movie-feign-hystrix-fallback/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1493,7 +1634,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1528,7 +1669,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>microservice-simple-consumer-movie</last-edited>
+          <last-edited>microservice-consumer-movie</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1539,21 +1680,9 @@
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>Maven: org.jvnet:animal-sniffer-annotation:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
